@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+ <?php include "header.php" ?>
+<body class="hold-transition sidebar-mini layout-fixed">
+<div class="wrapper">
+  <?php include "nav.navbar.php" ?>
+  <?php include "aside.php" ?>
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <!-- Small boxes (Stat box) -->
+        <div class="row">
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-info">
+              <div class="inner">
+                <h3>150</h3>
+
+                <p>Emaployee Register</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-bag"></i>
+              </div>
+              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-success">
+              <div class="inner">
+                <h3>53<sup style="font-size: 20px">%</sup></h3>
+
+                <p>Teacher Register</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+              </div>
+              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-warning">
+              <div class="inner">
+                <h3>44</h3>
+
+                <p>Student Register</p>   
+              </div>
+              <div class="icon">
+                <i class="ion ion-person-add"></i>
+              </div>
+              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-danger">
+              <div class="inner">
+                <h3>65</h3>
+
+                <p>Unique Visitors</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-pie-graph"></i>
+              </div>
+              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+        </div>
+         <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="text-center bg-success"> Students</h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <table id="example2" class="table table-bordered table-hover">
+                  <thead>
+                  <tr>
+                    <th>Id</th>
+                    <th>Firstname</th>
+                    <th>middleName</th>
+                    <th>LastName</th>
+                    <th>gender</th>
+                    <th>Email</th>
+                    <th>address_name</th>
+                    <th>suburb</th>
+                    <th>city</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <td>220177676</td>
+                    <td>Bulambo</td>
+                    <td>Prince</td>
+                    <td>Mutamba</td>
+                    <td>Male</td>
+                    <td>draybulambo45@gmail.com</td>
+                    <td>rose road 15</td>
+                    <td>Goodwood</td>
+                    <td>Cape town</td>
+                  </tr>
+                  <tr>
+                    <td>220177698</td>
+                    <td>Nyembo</td>
+                    <td>Paul</td>
+                    <td>Liwema</td>
+                    <td>Male</td>
+                    <td>paul@gmail.com</td>
+                    <td>rose road 15</td>
+                    <td>Goodwood</td>
+                    <td>Cape town</td>
+                  </tr>
+                  <tr>
+                    <td>220177676</td>
+                    <td>Bulambo</td>
+                    <td>Prince</td>
+                    <td>Mutamba</td>
+                    <td>Male</td>
+                    <td>draybulambo45@gmail.com</td>
+                    <td>rose road 15</td>
+                    <td>Goodwood</td>
+                    <td>Cape town</td>
+                  </tr>
+                  </tfoot>
+                </table>
+              </div>
+              <!-- /.card-body -->
+            </div>
+
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container-fluid -->
+    </section>
+      </section>
+
+        </div>
+      </div>
+    </section>
+    <!-- /.content -->
+  </div>
+   <?php include "footer.php" ?>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+  <?php include "script.php" ?>
+</body>
+</html>
