@@ -2,9 +2,9 @@
 use Doctrine\ORM\Mapping as ORM;
 /**
 * @ORM\Entity
-* @ORM\Table(name="Parent")
+* @ORM\Table(name="student_parents")
 */
-class Parent
+class StudentParent
 {
    /**
     * @ORM\Column(type="integer")
@@ -44,16 +44,9 @@ class Parent
     * @ORM\Column(type="string", nullable=false)
     */
    public $address_name;
-   /** @ORM\OneToOne(
-    * targetEntity="sms\src\Student", 
-    * inversedBy="lessons*removethis : name of the variable in Student.php*")
-    * @ORM\JoinColumn(name="user_id", referencedColumnName="id")
-    * */
-   public $student_Id; 
-   /** @ORM\OneToOne(
-    * targetEntity="sms\src\Teacher", 
-    * inversedBy="lessons*removethis : name of the variable in Teacher.php*")
-    * @ORM\JoinColumn(name="teacher_id", referencedColumnName="id")
-    * */
-   public $teacher_Id; 
+   /**
+    * @ORM\ManyToOne(targetEntity="Student", fetch="EAGER")
+    * @ORM\JoinColumn(nullable=false, onDelete="CASCADE")
+    */
+   public $student; 
 }

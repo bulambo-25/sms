@@ -2,7 +2,7 @@
 use Doctrine\ORM\Mapping as ORM;
 /**
 * @ORM\Entity
-* @ORM\Table(name="school_name")
+* @ORM\Table(name="schools")
 */
 class School
 {
@@ -11,7 +11,7 @@ class School
     * @ORM\Id
     * @ORM\GeneratedValue(strategy="IDENTITY")
     */
-   public $Id;
+   public $id;
    /**
     * @ORM\Column(type="string", nullable=false)
     */
